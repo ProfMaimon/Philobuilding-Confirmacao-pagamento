@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Confirmada</title>
+    <style>
+        /* Seus estilos aqui */
+    </style>
+</head>
+<body>
+    <h1>Compra Confirmada!</h1>
+    <p>Obrigado por adquirir o acesso exclusivo ao Philobuilding.</p>
+    <p>Sua senha de acesso é: <strong>segreta123</strong></p>
+    <p>Use essa senha para acessar o conteúdo exclusivo em <a href="https://profmaimon.github.io/Treino-PhilobuildingUpperbd/">nosso site</a>.</p>
+</body>
+</html>
