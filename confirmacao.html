@@ -1,17 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compra Confirmada</title>
-    <style>
-        /* Seus estilos aqui */
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra Confirmada</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Fundo preto e fonte padrão */
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container centralizado */
+    .container {
+      max-width: 600px;
+      background: #111; /* Um tom de preto um pouco mais claro */
+      margin: 50px auto;
+      padding: 30px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.2); /* leve brilho dourado */
+    }
+
+    h1 {
+      color: #FFD700; /* Dourado para o título */
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    p {
+      margin: 20px 0;
+      font-size: 1.1em;
+      line-height: 1.5;
+      color: #fff; /* Texto em branco */
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #FFD700; /* Destaque em dourado */
+    }
+
+    /* Botão com fundo dourado e texto em preto */
+    .btn {
+      display: inline-block;
+      background-color: #FFD700;
+      color: #000;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Efeito de hover no botão */
+    .btn:hover {
+      background-color: #FFC107;
+    }
+  </style>
 </head>
 <body>
-    <h1>Compra Confirmada!</h1>
-    <p>Obrigado por adquirir o acesso exclusivo ao Philobuilding.</p>
-    <p>Sua senha de acesso é: <strong>segreta123</strong></p>
-    <p>Use essa senha para acessar o conteúdo exclusivo em <a href="https://profmaimon.github.io/Treino-PhilobuildingUpperbd/">nosso site</a>.</p>
+  <div class="container">
+    <h1>COMPRA CONFIRMADA!</h1>
+    <p>Obrigado por adquirir o acesso exclusivo do <strong>Philobuilding</strong>.</p>
+    <p>Sua senha de acesso é: <span class="highlight">segreta123</span></p>
+    <p>Use essa senha para acessar o conteúdo exclusivo em:</p>
+    <a href="https://profmaimon.github.io/Treino-PhilobuildingUpperbd/" class="btn">
+      Acessar Conteúdo
+    </a>
+  </div>
 </body>
 </html>
